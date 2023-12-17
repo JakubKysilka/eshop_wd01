@@ -11,12 +11,12 @@
 </head>
 
 <body>
-  <nav class="navbar bg-body-tertiary mb-3">
+  <nav class="navbar bg-danger-subtle mb-3">
     <div class="container-fluid">
-      <a class="navbar-brand">Navbar</a>
+      <a class="navbar-brand h1 fs-3 text-white" href="index.html">Zenni <span class="fs-5 fst-italic text-light">- brýle nejen pro vás</span></a>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="Hledat" aria-label="Search">
+        <button class="btn btn-danger" type="submit">Hledat</button>
       </form>
     </div>
   </nav>
@@ -31,13 +31,15 @@
       </select>
     </section>
     <div class="row">
-      <section class="filtr col">
-        <div class="cena">
+      <section class="filtr col-lg-3 p-3">
+        <div class="cena card p-3 mb-3">
           <h3>Cena</h3>
-          <label for="customRange3" class="form-label">379kč - 8999kč</label>
-          <input type="range" class="form-range" min="0" max="10" step="0.5" id="customRange3" />
-        </div>
-        <div class="pohlavi">
+
+          
+            <label for="customRange3" class="form-label">379 Kč - 8999 Kč</label>
+            <input type="range" class="form-range custom-range" min="0" max="10" step="0.5" id="customRange3" />
+          </div>
+        <div class="pohlavi card p-3 my-3">
           <h3>Pohlaví</h3>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" checked>
@@ -64,7 +66,7 @@
             </label>
           </div>
         </div>
-        <div class="tvar">
+        <div class="tvar card p-3 my-3">
           <h3>Tvar</h3>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="square">
@@ -97,7 +99,7 @@
             </label>
           </div>
         </div>
-        <div class="styl">
+        <div class="styl card p-3 my-3">
           <h3>Styl</h3>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="radio" id="radio5" checked>
@@ -124,92 +126,326 @@
             </label>
           </div>
         </div>
-        <div class="znacka">
+        <div class="znacka card p-3 my-3">
           <h3>Značka</h3>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
-              Tommy Hilfiger
+              <img src="images/tommy.jpg" alt="tommy"> Tommy Hilfiger
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
             <label class="form-check-label" for="flexCheckChecked">
-              Ray-Ban
+              <img src="images/ray-ban.jpg" alt="ray-ban"> Ray-Ban
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked2">
             <label class="form-check-label" for="flexCheckChecked2">
-              Boss
+              <img src="images/boss.jpg" alt="boss"> Boss
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked3">
             <label class="form-check-label" for="flexCheckChecked3">
-              Guess
+              <img src="images/guess.jpg" alt="guess"> Guess
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked4">
             <label class="form-check-label" for="flexCheckChecked4">
-              Gucci
+              <img src="images/gucci.jpg" alt="gucci">Gucci
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked5">
             <label class="form-check-label" for="flexCheckChecked5">
-              Prada
+              <img src="images/prada.jpg" alt="prada">Prada
             </label>
           </div>
-
-          <div class="slova">
+        </div>
+          <div class="slova card p-3 my-3">
             <h3>Klíčová slova</h3>
             <textarea name="klic" id="klic" cols="30" rows="3"></textarea>
           </div>
+          <a href="#" class="btn btn-danger w-100 fs-4">Vyhledat</a>
       </section>
-      <section class="produkty col">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+      <section class="produkty col-lg-9  p-3">
+        <div class="row row-cols-1 row-cols-lg-3 g-4">
           <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-danger btn">Sleva 20%</p>
+              <img src="images/pradaglasses.jpg" class="card-img-top" alt="pradaglasses">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Prada <span class="text-black-50 fs-6">PR06YV</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price sleva">8 390 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
               </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a short card.</p>
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-dark btn">Na skladě</p>
+              <img src="images/gucci_gg1468OA.jpg" class="card-img-top" alt="gucci_gg1468OA">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Gucci <span class="text-black-50 fs-6">GG1468OA</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">7 590 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
               </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content.</p>
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-success btn">Novinka</p>
+              <img src="images/gucci_GG1085O.jpg" class="card-img-top" alt="gucci_GG1085O">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Gucci <span class="text-black-50 fs-6">GG1085O</span></h5>
+                <p class="card-text text-center text-danger"><span><i class="fa-solid fa-xmark"></i> Vyprodáno</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">6 190 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
               </div>
             </div>
           </div>
+
           <div class="col">
-            <div class="card h-100">
-              <img src="..." class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                  content. This content is a little bit longer.</p>
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-dark btn">Na skladě</p>
+              <img src="images/ray-ban_aviator_titanium.jpg" class="card-img-top" alt="ray-ban_aviator_titanium">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Ray-Ban <span class="text-black-50 fs-6">RX8225V 1237</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">6 190 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
               </div>
             </div>
           </div>
-        </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-danger btn">Sleva 30%</p>
+              <img src="images/ray-ban-mega-clubmaster.jpg" class="card-img-top" alt="ray-ban-mega-clubmaster">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Ray-Ban <span class="text-black-50 fs-6">RX0316V 2000</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price sleva">5 980 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-danger btn">Sleva 2%</p>
+              <img src="images/tommy_TH1907_8RU.jpg" class="card-img-top" alt="tommy_TH1907_8RU">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Tommy Hilfiger <span class="text-black-50 fs-6">TH1907_8RU</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price sleva">5 666 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-success btn">Novinka</p>
+              <img src="images/prada_pr20.jpg" class="card-img-top" alt="prada_pr20">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Prada <span class="text-black-50 fs-6">PR20ZV 14L1O1</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">5 290 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-danger btn">Sleva 10%</p>
+              <img src="images/gucci_gg0025o_012.jpg" class="card-img-top" alt="gucci_gg0025o_012">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Gucci <span class="text-black-50 fs-6">GG0025O 012</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price sleva">5 239 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-dark btn">Na skladě</p>
+              <img src="images/guess_GU2831_052.jpg" class="card-img-top" alt="guess_GU2831_052">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Guess <span class="text-black-50 fs-6">GU2831 052</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">4 599 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-success btn">Novinka</p>
+              <img src="images/guess_GU2853_001.jpg" class="card-img-top" alt="guess_GU2853_001">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Guess <span class="text-black-50 fs-6">GU2853 001</span></h5>
+                <p class="card-text text-center text-danger"><span><i class="fa-solid fa-xmark"></i> Vyprodáno</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">4 599 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-danger btn">Sleva 5%</p>
+              <img src="images/boss_1190it_807.jpg" class="card-img-top" alt="boss_1190it_807">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Boss <span class="text-black-50 fs-6">1190/IT 807</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price sleva">4 398 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-success btn">Novinka</p>
+              <img src="images/gucci_GG10250O_002.jpg" class="card-img-top" alt="gucci_GG10250O_002">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Gucci <span class="text-black-50 fs-6">GG10250O 002</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">4 369 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-dark btn">Na skladě</p>
+              <img src="images/ray_ban_RX7140_8335.jpg" class="card-img-top" alt="RX7140 8335">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Ray-Ban <span class="text-black-50 fs-6">RX7140 8335</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">3 419 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-danger btn">Sleva 80%</p>
+              <img src="images/boss_1545_DCD.jpg" class="card-img-top" alt="boss_1545_DCD">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Boss <span class="text-black-50 fs-6">1545 DCD</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price sleva">2 189 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100 p-3">
+              <a href="detail.html">
+              <p class="w-100 btn-dark btn">Na skladě</p>
+              <img src="images/tommy_TH1907_8RU.jpg" class="card-img-top" alt="TH1907_8RU">
+            </a>
+              <div class="card-body">          
+                <h5 class="card-title text-center fs-4">Tommy Hilfiger <span class="text-black-50 fs-6">TH1907 8RU</span></h5>
+                <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
+                <div class="button-price mt-2">
+                
+                <p class="card-text text-center me-2 price">1 899 Kč</p>
+                <a class="btn btn-outline-success" href="detail.html">Detaily</a>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+          </div>
+      
 
 
 
@@ -220,7 +456,8 @@
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>¨
+    <script src="https://kit.fontawesome.com/3ce82cb428.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

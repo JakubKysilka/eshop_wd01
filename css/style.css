@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --bs-light-rgb:#504f4f !important;
+	--bs-danger-bg-subtle:#e19999 !important;
+    --bs-btn-bg: #656a6f !important;
+}
+p {
+	font-family: 'Roboto', sans-serif;
+}
+.text-light {
+    color: var(--bs-light-rgb);
+	--bs-light-rgb:#504f4f !important;
+}
+
+.button-price {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.price {
+	position: relative;
+	top: 5px;
+}
+.sleva {
+	color: var(--bs-danger);
+}
+.bg-danger-subtle {
+	background-color: var(--bs-danger-bg-subtle) !important;
+}
+.custom-range::-webkit-slider-thumb {
+	background-color: #ff5733; /* Barva, kterou chcete použít */
+  }
+
+  .custom-range::-moz-range-thumb {
+	background-color: #ff5733; /* Barva, kterou chcete použít */
+  }
+
+  .custom-range::-ms-thumb {
+	background-color: #ff5733; /* Barva, kterou chcete použít */
+  }
+  .form-check-input:checked {
+	background-color: var(--bs-danger);
+	border-color: var(--bs-danger);
+}
+.btn-dark {
+	--bs-btn-bg: #656a6f !important;
+}
