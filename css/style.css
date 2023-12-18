@@ -19,7 +19,7 @@ p {
 }
 .price {
 	position: relative;
-	top: 5px;
+	top: 8px;
 }
 .sleva {
 	color: var(--bs-danger);
@@ -44,4 +44,12 @@ p {
 }
 .btn-dark {
 	--bs-btn-bg: #656a6f !important;
+}
+.line {
+	height: 1px;
+	background-color: rgba(0, 0, 0, 0.175);
+}
+.skryt-filtr {
+	position: relative;
+	top: 10px;
 }

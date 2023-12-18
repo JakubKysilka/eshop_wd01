@@ -11,17 +11,22 @@
 </head>
 
 <body>
-  <nav class="navbar bg-danger-subtle mb-3">
+  <nav class="navbar bg-danger mb-3">
     <div class="container-fluid">
       <a class="navbar-brand h1 fs-3 text-white" href="index.html">Zenni <span class="fs-5 fst-italic text-light">- brýle nejen pro vás</span></a>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Hledat" aria-label="Search">
-        <button class="btn btn-danger" type="submit">Hledat</button>
+        <button class="btn text-white" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
       </form>
     </div>
   </nav>
+  <div class="line"></div>
   <div class="container">
-
+    
+    <div class="d-flex justify-content-between align-items-center my-3">
+   <section class="skryt-filtr d-flex"> 
+    <i class="fa-solid fa-filter me-2"></i><p>Skrýt filtry</p>
+   </section>
     <section class="razeni">
       <select class="form-select" aria-label="Default select example">
         <option selected>Nejprodávanější</option>
@@ -30,14 +35,18 @@
         <option value="3">Novinky</option>
       </select>
     </section>
+  </div>
+</div>
+  <div class="line"></div>
+  <div class="container">
     <div class="row">
       <section class="filtr col-lg-3 p-3">
         <div class="cena card p-3 mb-3">
           <h3>Cena</h3>
 
           
-            <label for="customRange3" class="form-label">379 Kč - 8999 Kč</label>
-            <input type="range" class="form-range custom-range" min="0" max="10" step="0.5" id="customRange3" />
+            <label for="customRange3" class="form-label">1 899 Kč - 8 999 Kč</label>
+            <input type="range" class="form-range custom-range" min="0" max="10" step="0.5" id="customRange3"/>
           </div>
         <div class="pohlavi card p-3 my-3">
           <h3>Pohlaví</h3>
@@ -100,7 +109,7 @@
           </div>
         </div>
         <div class="styl card p-3 my-3">
-          <h3>Styl</h3>
+          <h3>Dostupnost</h3>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="radio" id="radio5" checked>
             <label class="form-check-label" for="radio5">
@@ -432,7 +441,7 @@
               <img src="images/tommy_TH1907_8RU.jpg" class="card-img-top" alt="TH1907_8RU">
             </a>
               <div class="card-body">          
-                <h5 class="card-title text-center fs-4">Tommy Hilfiger <span class="text-black-50 fs-6">TH1907 8RU</span></h5>
+                <h5 class="card-title text-center fs-4">Tommy Hilfiger <span class="text-black-50 fs-6">TH1907</span></h5>
                 <p class="card-text text-center text-success"><span><i class="fa-solid fa-check"></i> Skladem</span></p>
                 <div class="button-price mt-2">
                 
