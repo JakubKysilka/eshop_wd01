@@ -28,15 +28,15 @@ p {
 	background-color: var(--bs-danger-bg-subtle) !important;
 }
 .custom-range::-webkit-slider-thumb {
-	background-color: #ff5733; /* Barva, kterou chcete použít */
+	background-color: #ff5733;
   }
 
   .custom-range::-moz-range-thumb {
-	background-color: #ff5733; /* Barva, kterou chcete použít */
+	background-color: #ff5733;
   }
 
   .custom-range::-ms-thumb {
-	background-color: #ff5733; /* Barva, kterou chcete použít */
+	background-color: #ff5733;
   }
   .form-check-input:checked {
 	background-color: var(--bs-danger);
@@ -52,4 +52,38 @@ p {
 .skryt-filtr {
 	position: relative;
 	top: 10px;
+}
+.px-10 {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+@media (max-width:500px) {
+	.px-10 {
+		font-size: 12px;
+	}
+}
+
+@media (min-width:768px) {
+	.px-10 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+}
+@media (min-width:1000px) {
+	.px-10 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+@media (min-width:1200px) {
+	.px-10 {
+		padding-left: 75px;
+	    padding-right: 75px;
+	}
+}
+@media (min-width:1400px) {
+	.px-10 {
+		padding-left: 100px;
+		padding-right: 100px;
+	}
 }
