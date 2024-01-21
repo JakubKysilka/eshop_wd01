@@ -25,21 +25,21 @@
   <div class="container">
     <section class="kroky d-flex justify-content-center fs-5">
    
-      <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
-        <label class="btn btn-outline-primary d-flex align-items-center justify-content-center"
+      <div class="btn-group w-100" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" checked>
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center p-3 fs-5"
           for="btnradio1">Košík</label>
 
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
-        <label class="btn btn-outline-primary d-flex align-items-center justify-content-center" for="btnradio2">Doprava
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center fs-5" for="btnradio2">Doprava
           a platba</label>
 
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
-        <label class="btn btn-outline-primary d-flex align-items-center justify-content-center" for="btnradio3">Dodací
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center fs-5" for="btnradio3">Dodací
           údaje</label>
 
-        <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
-        <label class="btn btn-outline-primary d-flex align-items-center justify-content-center"
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio4">
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center fs-5"
           for="btnradio4">Shrnutí</label>
       </div>
     </section>
@@ -64,7 +64,7 @@
             </div>
           </div>
         </div>
-        <div class="line"></div>
+        <div class="line my-5 my-lg-0"></div>
         <div class="row row-cols-1 row-cols-lg-2 align-items-center">
           <img src="images/ray-ban_aviator_titanium.jpg" alt="rayban">
           <div class="d-flex row row-cols-1 row-cols-lg-2 text-center">
@@ -75,7 +75,7 @@
             <div class="d-flex col">
               <div class="col pe-5 w-50 pt-4 ">
                 <label for="quantity">Počet kusů:</label>
-                <input type="number" id="quantity" min="1" value="0" class="pocitani">
+                <input type="number" id="quantity2" min="1" value="0" class="pocitani">
               </div>
               <div class="col">
                 <p class="fs-4 text-center">6 190 Kč</p>
@@ -84,7 +84,7 @@
             </div>
           </div>
         </div>
-        <div class="line"></div>
+        <div class="line my-5 my-lg-0"></div>
         <div class="row row-cols-1 row-cols-lg-2 align-items-center">
           <img src="images/gucci_GG10250O_002.jpg" alt="gucci_GG10250O_002">
           <div class="d-flex row row-cols-1 row-cols-lg-2 text-center">
@@ -95,7 +95,7 @@
             <div class="d-flex col">
               <div class="col pe-5 w-50 pt-4 ">
                 <label for="quantity">Počet kusů:</label>
-                <input type="number" id="quantity" min="1" value="0" class="pocitani">
+                <input type="number" id="quantity3" min="1" value="0" class="pocitani">
               </div>
               <div class="col">
                 <p class="fs-4 text-center">4 369 Kč</p>
@@ -111,14 +111,18 @@
       <div class="text-center">
       <h2>Souhrn</h2>
       <p>Nákupní košík (3 položky)</p>
-      <p class="text-success">Doprava Zdarma <i class="fa-solid fa-check me-2"></i></p>
+      <div class="text-center text-success">
+        <p><i class="fa-solid fa-check me-2"></i> Doprava Zdarma od 3 000 kč</p>
+        <p><i class="fa-solid fa-check me-2"></i> Vrácení do 30 dnů</p>
+        <p><i class="fa-solid fa-check me-2"></i> Garance kvality</p>
+    </div>
       <div class="d-flex">
         <input type="text" class="form-control" placeholder="Slevový kupón" aria-label="Slevový kupón">
         <a class="btn btn-outline-success ms-2">Použít</a>
       </div>
       <div class="line my-4"></div>
       <p class="fw-semibold fs-5">Celkem : 19 049 Kč</p>
-      <button class="btn btn-success w-100 p-3">Přejít k objednávce</button>
+      <a href="doprava.html" class="btn btn-success p-3 w-100">Přejít k objednávce <i class="fa-solid fa-arrow-right ms-3"></i></a>
     </div>
     </section>
 
@@ -126,18 +130,7 @@
 
   </div>
 
-  <div class="border border-2 border-black pt-3 px-10 bg-black text-white">
-    <p>Košík</p>
-  </div>
-  <div class="border border-2 border-black pt-3 px-10">
-    <p>Doprava a platba</p>
-  </div>
-  <div class="border border-start-0 border-2 border-black pt-3 px-10">
-    <p>Dodací údaje</p>
-  </div>
-  <div class="border border-start-0 border-2 border-black pt-3 px-10">
-    <p>Shrnutí</p>
-  </div>
+ 
   <footer class="p-5 bg-danger text-white mt-5">
     <div class="row mx-lg-4">
       <div class="col-8 col-md-4 mb-3">
@@ -145,8 +138,8 @@
         <ul class="nav flex-column">
           <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Domů</a></li>
           <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Eshop</a></li>
-          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Košík</a></li>
-          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white"><i
+          <li class="nav-item mb-2"><a href="kosik.html" class="nav-link p-0 text-white">Košík</a></li>
+          <li class="nav-item mb-2"><a href="kosik.html" class="nav-link p-0 text-white"><i
                 class="fa-solid fa-arrow-up"></i></a></li>
 
         </ul>

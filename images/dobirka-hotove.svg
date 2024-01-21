@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="39.997" height="39.997" viewBox="0 0 39.997 39.997">
+    <defs>
+        <style>
+            .cls-2{fill:#fabb24}
+        </style>
+    </defs>
+    <g id="dobirka-hotove" transform="translate(-780 -1264)">
+        <path id="Path_354" data-name="Path 354" d="M0 0h40v40H0z" transform="translate(780 1264)" style="fill:none;fill-rule:evenodd"/>
+        <path id="Subtraction_59" data-name="Subtraction 59" class="cls-2" d="M-6259 22478.414v-3.123h-7.5v-5.488h7.5v-4.365a.438.438 0 0 1 .249-.4.458.458 0 0 1 .189-.043.422.422 0 0 1 .279.105l8.5 7.053a.446.446 0 0 1 .158.34.439.439 0 0 1-.158.338l-6.077 5.043a11.651 11.651 0 0 0-3.138.535z" transform="translate(7064 -21196.871)"/>
+        <path id="Subtraction_60" data-name="Subtraction 60" d="M-6258.064 22479.99a.45.45 0 0 1-.281-.1l-8.5-7.055a.447.447 0 0 1-.158-.34.43.43 0 0 1 .158-.338l8.5-7.057a.464.464 0 0 1 .282-.1.4.4 0 0 1 .186.045.431.431 0 0 1 .254.4v4.363h7.5v1.418a11.587 11.587 0 0 0-3.564 4.068h-3.932v4.256a.443.443 0 0 1-.254.4.435.435 0 0 1-.191.04z" transform="translate(7051.999 -21188.121)" style="fill:#68b811"/>
+        <circle id="Ellipse_790" data-name="Ellipse 790" cx="10.5" cy="10.5" r="10.5" transform="translate(798 1282)" style="fill:#f8f8f8"/>
+        <g id="Group_44" data-name="Group 44" transform="translate(786.001 1277.25)">
+            <path id="Path_366" data-name="Path 366" class="cls-2" d="M39.74 27.088a6.189 6.189 0 0 1 0 12.238 6.925 6.925 0 0 0 0-12.238zM36.31 27a6.314 6.314 0 1 0 .005 0z" transform="translate(-15.001 -18.25)"/>
+            <path id="Path_367" data-name="Path 367" d="M41.529 39.155V34.5h-1.583l-.786 1.552h.786v3.1z" transform="translate(-19.423 -21.871)" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>

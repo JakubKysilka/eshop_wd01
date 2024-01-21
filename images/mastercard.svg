@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+  <g id="mastercard-new" transform="translate(-5 -66)">
+    <rect id="bg-svg" width="40" height="40" transform="translate(5 66)" fill="none"/>
+    <g id="Group_2918" data-name="Group 2918" transform="translate(-10.416 57.185)">
+      <rect id="Rectangle_282" data-name="Rectangle 282" width="9.464" height="17.008" transform="translate(30.683 20.312)" fill="#ff5f00"/>
+      <path id="Path_4946" data-name="Path 4946" d="M351.081,280.816a10.8,10.8,0,0,1,4.131-8.5,10.816,10.816,0,1,0,0,17.008A10.8,10.8,0,0,1,351.081,280.816Z" transform="translate(-319.796 -252)" fill="#eb001b"/>
+      <path id="Path_4947" data-name="Path 4947" d="M413.458,280.816a10.816,10.816,0,0,1-17.5,8.5,10.818,10.818,0,0,0,0-17.008,10.816,10.816,0,0,1,17.5,8.5Z" transform="translate(-360.543 -252)" fill="#f79e1b"/>
+      <path id="Path_4948" data-name="Path 4948" d="M450.263,327.33v-.348h.14v-.071h-.358v.071h.14v.348Zm.694,0v-.42h-.11l-.126.289-.126-.289h-.11v.42h.077v-.317l.118.273h.08l.118-.274v.317Z" transform="translate(-398.38 -291.812)" fill="#f79e1b"/>
+    </g>
+  </g>
+</svg>

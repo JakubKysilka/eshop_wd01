@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zenni</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar bg-danger mb-3">
+    <div class="container-fluid">
+      <a class="navbar-brand h1 fs-3 text-white" href="index.html">Zenni <span class="fs-5 fst-italic text-light">-
+          brýle nejen pro vás</span></a>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Hledat" aria-label="Search">
+        <button class="btn text-white me-5" type="submit"><i class="fa-solid fa-magnifying-glass fs-4"></i></button>
+        <a href="kosik.html" class="btn text-white"><i class="fa-solid fa-cart-shopping fs-4"></i></a>
+      </form>
+    </div>
+  </nav>
+  <div class="container">
+    <section class="kroky d-flex justify-content-center fs-5">
+   
+      <div class="btn-group w-100" role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1">
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center p-3 fs-5"
+          for="btnradio1">Košík</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" checked>
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center fs-5" for="btnradio2">Doprava
+          a platba</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio3">
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center fs-5" for="btnradio3">Dodací
+          údaje</label>
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio4">
+        <label class="btn btn-outline-secondary d-flex align-items-center justify-content-center fs-5"
+          for="btnradio4">Shrnutí</label>
+      </div>
+    </section>
+    <section class="doprava-platba">
+        <div class="doprava my-3">
+            <h2 class="p-3 fs-1 text-center text-lg-start">Způsob doručení</h2>
+            <div class="border p-sm-3 rounded">
+                <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios1">
+                      Na prodejnu <span class="text-black-50 mx-2 fw-normal">Zdarma</span> <span class="mx-2 text-success fw-semibold ">Do 20 min</span>
+                    </label>
+                  </div>
+                  <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios2">
+                      Do Z-boxu <span class="text-black-50 mx-2 fw-normal">Od 49 kč</span> <span class="mx-2 text-success fw-semibold">Do 8:00</span>
+                    </label>
+                  </div>
+                  <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios3">
+                     Na adresu <span class="text-black-50 mx-2 fw-normal">Od 189 kč</span> <span class="mx-2 text-success fw-semibold">Čt 25.11</span>
+                    </label>
+                  </div>
+                  <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios4">
+                        Do zásilkovny <span class="text-black-50 mx-2 fw-normal">Od 39 kč</span> <span class="mx-2 text-success fw-semibold">Út 23.11</span>
+                    </label>
+                  </div>
+            </div>
+
+        </div>
+
+
+        <div class="doprava my-3">
+            <h2 class="p-3 fs-1 text-center text-lg-start">Platba</h2>
+            <div class="border p-sm-3 rounded">
+                <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios5" value="option1">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios5">
+                      Kartou <span class="mx-2"><img src="images/visa.svg" alt="visa" height="25"><img src="images/maestro.svg" alt="maestro" height="25">
+                        <img src="images/mastercard.svg" alt="mastercard" height="25"><img src="images/diners-club.svg" alt="dinners-club" height="25"></span>
+                    </label>
+                  </div>
+                  <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadio6" value="option2">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadio6">
+                      PayPal  <span class="mx-2"><img src="images/pay-pal.svg" alt="pay-pal" height="25"></span>
+                    </label>
+                  </div>
+                  <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios7" value="option3">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios7">
+                       Google Pay <span class="mx-2"><img src="images/google-pay.svg" alt="google-pay" height="30"></span>
+                    </label>
+                  </div>
+                  <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios8" value="option4">
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios8">
+                       Hotově (na prodejně nebo kurýrovi) <span class="mx-2"><img src="images/hotove-nebo-kartou.svg" alt="hotove-nebo-kartou" height="30"></span>
+                    </label>
+                  </div>
+                  <div class="form-check m-1">
+                    <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios9" value="option4" disabled>
+                    <label class="form-check-label d-flex justify-content-between m-1 fw-semibold" for="exampleRadios9">
+                       Kryptoměnou <span class="mx-2"><img src="images/bitcoin-pay.svg" alt="bitcoin-pay" height="30"></span>
+                    </label>
+                  </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="pokracovat d-flex justify-content-between align-items-center my-5">
+        <div class="">
+        <a href="#" class="btn btn-success px-5 py-3">Pokračovat v objednávce <i class="fa-solid fa-arrow-right ms-3"></i></a>
+    </div>
+        <div class="text-center text-success">
+        <p><i class="fa-solid fa-check me-2"></i> Doprava Zdarma od 3 000 kč</p>
+        <p><i class="fa-solid fa-check me-2"></i> Vrácení do 30 dnů</p>
+        <p><i class="fa-solid fa-check me-2"></i> Garance kvality</p>
+    </div>
+    </section>
+
+
+
+
+  </div>
+
+ 
+  <footer class="p-5 bg-danger text-white mt-5">
+    <div class="row mx-lg-4">
+      <div class="col-8 col-md-4 mb-3">
+        <h5 class="fw-semibold">Zenni</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Domů</a></li>
+          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-white">Eshop</a></li>
+          <li class="nav-item mb-2"><a href="kosik.html" class="nav-link p-0 text-white">Košík</a></li>
+          <li class="nav-item mb-2"><a href="doprava.html" class="nav-link p-0 text-white"><i
+                class="fa-solid fa-arrow-up"></i></a></li>
+
+        </ul>
+      </div>
+
+
+
+
+      <div class="col-md-7 mb-3">
+        <form>
+          <h5 class="fw-semibold">Napište recenzi</h5>
+          <p>zveřejněte váš názor na naši stránku.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Emailová adresa</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Emailová adresa">
+            <input type="text" class="form-control" placeholder="Jméno/Přezdívka">
+          </div>
+          <div class="my-3">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              placeholder="Vaše zpráva"></textarea>
+            <button class="btn btn-outline-light w-100 mt-3" type="button">Odeslat</button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 border-top me-5">
+      <p>© 2023 Jakub Kysilka</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-facebook"></i></a></li>
+        <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <li class="ms-3"><a class="text-white" href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>¨
+  <script src="https://kit.fontawesome.com/3ce82cb428.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
