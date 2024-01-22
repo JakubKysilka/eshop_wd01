@@ -90,3 +90,9 @@ p {
 .pocitani {
 	width: 80px;
 }
+.form-control {
+	background-color: #efeeee;
+}
+.form-select {
+	background-color: #efeeee;
+}
